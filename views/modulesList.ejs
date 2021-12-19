@@ -1,0 +1,24 @@
+<table>
+    <tr>
+       <th>MID</th>
+       <th>Name</th>
+       <th>Credits</th>
+     </tr>
+
+     <p><a href="http://localhost:3000/" class="btn btn-primary" role="button">Home</a></p>
+
+ <% modules.forEach((mod)=>{%>
+ 
+  <tr>
+     <td><%=mod.mid%></td>
+     <td><%=mod.name%></td>
+     <td><%=mod.credits%></td>
+  </tr>
+
+
+
+
+
+<% }) %>
+
+</table>

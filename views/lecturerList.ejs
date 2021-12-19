@@ -1,0 +1,27 @@
+<table>
+    <tr>
+       <th>Lecturer ID</th>
+       <th>Name</th>
+       <th>Dept</th>
+     </tr>
+
+     <p><a href="http://localhost:3000/" class="btn btn-primary" role="button">Home</a></p>
+
+ <% lecturer.forEach((lec)=>{%>
+ 
+  <tr>
+     <td><%=lec._id%></td>
+     <td><%=lec.name%></td>
+     <td><%=lec.dept%></td>
+  </tr>
+
+
+
+
+
+<% }) %>
+
+
+</table>
+
+<p><a href="http://localhost:3000/addLecturer" class="btn btn-primary" role="button">Add Lecturer</a></p>
